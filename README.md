@@ -1,2 +1,2 @@
 # solutions-spoj
-My submissions for Sphere Online Judge (SPOJ)
+My accepted submissions for Sphere Online Judge (SPOJ)
