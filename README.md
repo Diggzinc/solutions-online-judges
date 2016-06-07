@@ -1,6 +1,7 @@
-# solutions-spoj
-My accepted submissions for Sphere Online Judge (SPOJ)
+# solutions-online-judges
+My accepted submissions for the following Online Judges:
 
-The following solutions represent my accepted submissions for the Sphere Online Judge Website, mainly coded after i come from work, so please beware! 
+- Sphere Online Judge (SPOJ)
+- HackerRank
 
-**Readability**, **Approach** and **Performance** on the following submissions can possibly be vastly improved!
+The following solutions represent my accepted submissions for these Online Judges, mainly coded after i come from work, so please beware that **Readability**, **Approach** and **Performance** on the following submissions can be vastly improved!
