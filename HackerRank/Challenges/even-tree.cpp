@@ -5,6 +5,11 @@
 #include <algorithm>
 using namespace std;
 
+/*
+ 1. Calculate the edges weight for each node
+ 2. Crop the weights that are even, and also count them.
+*/
+
 vector<vector<int>> tree;
 vector<int> edgesWeight;
 vector<bool> visited;
