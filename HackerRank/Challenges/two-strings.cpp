@@ -8,6 +8,7 @@
 
 using namespace std;
 
+//don't know why i used XOR instead of just a boolean
 
 int main() {
 	int nCases;
