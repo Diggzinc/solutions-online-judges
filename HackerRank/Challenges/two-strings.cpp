@@ -8,25 +8,24 @@
 
 using namespace std;
 
-//don't know why i used XOR instead of just a boolean
-
 int main() {
 	int nCases;
 	cin >> nCases;
 	string a, b;
 	char c;
 	while (nCases--) {
-		vector<int> chars = vector<int>(300, 0);
+		vector<bool> chars = vector<bool>(300, false);
 		bool isSubStr = false;
 		cin >> a >> b;
 		for (int i = 0; i < a.size();i++){
 			c = a[i];
-			chars[c] = c;
+			chars[c] = true;
 		}
 		for (int i = 0; i < b.size(); i++) {
 			c = b[i];
-			if (!(chars[c] ^ c)) {
+			if (chars[c]) {
 				isSubStr = true;
+				break;
 			}
 		}
 		cout << (isSubStr ? "YES" : "NO") << endl;
